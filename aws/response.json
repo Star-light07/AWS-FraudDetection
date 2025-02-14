@@ -1,0 +1,1 @@
+{"statusCode":200,"body":"{\"message\":\"Transaction flagged as fraud\",\"walletAddress\":\"0x123\",\"risk_score\":85}"}
