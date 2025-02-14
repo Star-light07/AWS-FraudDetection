@@ -1,0 +1,73 @@
+/* src/components/MyComponent.module.css */
+.container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    font-family: sans-serif; /* Use a clean font */
+    padding: 20px;
+    background-color: white; /* White background */
+    color: navy; /* Navy text color */
+  }
+  
+  .tabs {
+    display: flex; /* Arrange tabs horizontally */
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    border: 1px solid navy; /* Navy border */
+    cursor: pointer;
+    background-color: white; /* White background */
+    color: navy; /* Navy text */
+    margin-right: 10px; /* Add some space between tabs */
+    border-radius: 5px; /* Rounded corners for tabs */
+  }
+  
+  .tab.active {
+    background-color: navy; /* Navy background for active tab */
+    color: white; /* White text for active tab */
+  }
+  
+  /* Style the form elements */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block; /* Place labels above inputs */
+    margin-bottom: 5px;
+    color: navy;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid navy;
+    border-radius: 5px;
+  }
+  
+  .propose-button {
+    background-color: navy;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .owner-list {
+    margin-top: 20px;
+  }
+  
+  .owner-list h2 {
+      color: navy;
+  }
+  
+  .owner-list ul {
+      list-style: none;
+      padding: 0;
+  }
+  
+  .owner-list li {
+      color: navy;
+  }

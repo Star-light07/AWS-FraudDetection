@@ -2,8 +2,7 @@
 pragma solidity ^0.8.21;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
-import "@safe-global/safe-smart-account/contracts/Safe.sol";
-import "@safe-core-protocol/contracts/SafeSmartAccount.sol";
+import "safe-contracts/contracts/GnosisSafe.sol";
 
 contract FraudDetection is Ownable {
     struct Transaction {
